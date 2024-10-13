@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid'; 
-import Session from '../models/sessionModel.js'; 
+import Session from "../models/session.model.js"; 
 import { generateQRCode } from '../utils/qrCodeGenerator.utils.js'; 
 import path from 'path';
 
